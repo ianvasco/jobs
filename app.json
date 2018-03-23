@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Jobit",
+    "description": "Find your job",
+    "slug": "jobs",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSAppTransportSecurity" : {
+          "NSAllowsArbitraryLoads" : ""
+        }
+      }
+    }
+  }
+}
